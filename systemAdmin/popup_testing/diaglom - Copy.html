@@ -1,0 +1,19 @@
+<div id="floatbar">
+    <a href="" id="link-a">Link</a>
+    <div class="box">Popup box</div>
+</div>
+<style>
+.box {
+     display:none;
+     position: absolute;
+     top: 30px; 
+     left: 10px;
+    background: orange;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#link-a:hover + .box {
+     display:block;   
+}
+</style>
